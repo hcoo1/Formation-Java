@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ConsulterSoldeServlet</servlet-name>
+  	<display-name>ConsulterSoldeServlet</display-name>
+  	<description></description>
+  	<servlet-class>fr.banquetoulousaine.gestioncomptes.web.ConsulterSoldeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AppelerConsultationSolde</servlet-name>
+  	<display-name>AppelerConsultationSolde</display-name>
+  	<description></description>
+  	<servlet-class>fr.banquetoulousaine.gestioncomptes.web.AppelerConsultationSolde</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ConsulterSoldeServlet</servlet-name>
+  	<url-pattern>/ConsulterSoldeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AppelerConsultationSolde</servlet-name>
+  	<url-pattern>/AppelerConsultationSolde</url-pattern>
+  </servlet-mapping>
+</web-app>
